@@ -642,3 +642,10 @@ C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-owb/CMakeFiles/list_instal
 C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-owb/CMakeFiles/install.dir
 C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-owb/CMakeFiles/install/local.dir
 C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-owb/CMakeFiles/install/strip.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/__idf_esp32-ds18b20.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/edit_cache.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/rebuild_cache.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/list_install_components.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/install.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/install/local.dir
+C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/CMakeFiles/install/strip.dir

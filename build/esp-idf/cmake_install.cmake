@@ -422,3 +422,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-owb/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/esp32-ds18b20/cmake_install.cmake")
+endif()
+

@@ -5,6 +5,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-set(EXTRA_COMPONENT_DIRS "vendor/esp32-ds18b20")
-set(EXTRA_COMPONENT_DIRS "vendor/esp32-owb")
+
 project(ESP32_DS18B20_Temp_reading)
+
+

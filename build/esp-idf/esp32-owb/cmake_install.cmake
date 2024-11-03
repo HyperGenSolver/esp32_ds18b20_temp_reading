@@ -1,4 +1,4 @@
-# Install script for directory: C:/Git/ESP32_DS18B20_Temp_reading/vendor/esp32-owb
+# Install script for directory: C:/Git/ESP32_DS18B20_Temp_reading/components/esp32-owb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
