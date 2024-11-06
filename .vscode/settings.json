@@ -16,6 +16,12 @@
     "idf.toolsPathWin": "C:\\Users\\cedri\\.espressif",
     "idf.flashType": "UART",
     "files.associations": {
-        "owb_rmt.h": "c"
+        "owb_rmt.h": "c",
+        "mcpwm_prelude.h": "c",
+        "mcpwm_timer.h": "c",
+        "mcpwm_oper.h": "c",
+        "mcpwm_sync.h": "c",
+        "task.h": "c",
+        "freertos.h": "c"
     }
 }
