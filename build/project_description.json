@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32_DS18B20_Temp_reading",
-    "project_version":    "f5d7a7e-dirty",
+    "project_version":    "68519bd-dirty",
     "project_path":       "C:/Git/ESP32_DS18B20_Temp_reading",
     "idf_path":           "C:/Users/cedri/esp/v5.2.1/esp-idf",
     "build_dir":          "C:/Git/ESP32_DS18B20_Temp_reading/build",
@@ -835,7 +835,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Git/ESP32_DS18B20_Temp_reading/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Git/ESP32_DS18B20_Temp_reading/main/main_pwm_servo.c", "C:/Git/ESP32_DS18B20_Temp_reading/main/main_one_wire.c", "C:/Git/ESP32_DS18B20_Temp_reading/main/main.c" ],
+            "sources": [ "C:/Git/ESP32_DS18B20_Temp_reading/main/main_sender.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
