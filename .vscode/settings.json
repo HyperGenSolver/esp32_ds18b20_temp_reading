@@ -22,6 +22,10 @@
         "mcpwm_oper.h": "c",
         "mcpwm_sync.h": "c",
         "task.h": "c",
-        "freertos.h": "c"
+        "freertos.h": "c",
+        "esp_wifi.h": "c",
+        "stdio.h": "c",
+        "cstdint": "cpp",
+        "esp_system.h": "c"
     }
 }
