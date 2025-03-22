@@ -8,7 +8,8 @@ static const char *TAG = "ESP-NOW Temperature Sender";
 // True Clock ESP32 MAC address: e0:e2:e6:0d:72:14
 
 // MAC address of the receiver
-const uint8_t receiver_mac[] = {0xe0, 0xe2, 0xe6, 0x0d, 0x72, 0x14}; 
+const uint8_t clock_display_mac[] = {0xe0, 0xe2, 0xe6, 0x0d, 0x72, 0x14}; 
+const uint8_t Waveshare_E_Ink_mac[] = {0x24, 0x6F, 0x28, 0x24, 0x75, 0x1C}; 
 
 
 

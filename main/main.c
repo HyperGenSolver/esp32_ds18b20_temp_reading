@@ -80,9 +80,12 @@ void app_main(void)
     // ---------------------- Setup Wifi -------------------------
     init_esp_now();
     // Set the peer address
-    esp_now_peer_info_t peerInfo = {};
-    memcpy(peerInfo.peer_addr, receiver_mac, 6);
-    ESP_ERROR_CHECK(esp_now_add_peer(&peerInfo));
+    esp_now_peer_info_t peerInfo_clock = {}; // First peer is the nixxie clock
+    esp_now_peer_info_t peerInfo_Eink = {}; // Second peer is the e-ink display
+    memcpy(peerInfo_clock.peer_addr, clock_display_mac, 6);
+    memcpy(peerInfo_Eink.peer_addr, Waveshare_E_Ink_mac, 6);
+    ESP_ERROR_CHECK(esp_now_add_peer(&peerInfo_clock));
+    ESP_ERROR_CHECK(esp_now_add_peer(&peerInfo_Eink));
 
     // --- Main Loop ---
     struct_message temperature_send_payload;
@@ -103,7 +106,7 @@ void app_main(void)
             temperature_send_payload.temperature_inside = temperature_send_payload.temperature_outside; // temporary override
             ESP_LOGI(TAG, "Temperature reading: %.2f", temperature_send_payload.temperature_outside);
             // Send the message
-            esp_err_t result = esp_now_send(peerInfo.peer_addr, (uint8_t *)&temperature_send_payload, sizeof(temperature_send_payload));
+            esp_err_t result = esp_now_send(NULL, (uint8_t *)&temperature_send_payload, sizeof(temperature_send_payload)); // NULL as receiver means send to all peers
             if (result == ESP_OK)
             {
                 ESP_LOGI(TAG, "Data sent successfully");
